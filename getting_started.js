@@ -99,3 +99,42 @@
 // else {
 //     console.log("Do they have alumni network " + school.hasAlumniNetwork + " but the best alumni is " + school.bestAlumni)
 // }
+
+
+
+
+// 8- FOR LOOPS
+// const names = ["JemJem", "KTran", "Hossein", "Ayoubi"]
+
+// for (let i = 0; i < names.length; i++) {
+//     console.log(names[i])
+// }
+
+// for (let j = 0; j < names.length; j++) {
+//     console.log([j, names[j]])
+// }
+
+
+
+
+// 9- WHILE LOOPS
+// let password = "abcdefg"
+// let guess = ""
+
+// while (guess != password) {
+//     guess = prompt("Enter your password again")
+// }
+
+// alert("Login Successful")
+
+
+let number = 4;
+let factorial = 1;
+let originalNum = number;
+
+do {
+    factorial = factorial * number;
+    number = number - 1;
+} while (number > 0);
+
+console.log("The " + originalNum + "'s factorial is " + factorial);
